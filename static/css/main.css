@@ -1,0 +1,71 @@
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;   
+    
+}
+.main {
+    
+
+    background-image: url("https://wallpapersmug.com/large/34450e/plant-clover-leaf-blur.jpg");
+    background-image:url("https://img.freepik.com/free-vector/realistic-spring-background_52683-56313.jpg?t=st=1647454058~exp=1647454658~hmac=d869f98d288469d4ccf87fd4806ddcca16e6240595b472215b1825736d99b313&w=1060");
+    background-image:url("https://www.parmetech.com/wp-content/uploads/2020/04/hand-holding-young-plant-on-blur-green-nature.-concept-eco-earth-day-scaled.jpeg");
+    height: 150vh;
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 60px;
+    
+}
+.box {
+    
+    color: #000000;
+}
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #205349;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #acc4db;
+    color: #10493e;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #226896; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.mail{
+    color: rgb(37, 34, 34);
+    
+}
